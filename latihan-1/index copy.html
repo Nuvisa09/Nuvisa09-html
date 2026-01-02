@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+    <head>
+        <title>
+            Hai Dunia
+        </title>
+        <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css">
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                font-family: Inter, sans-serif;
+            }
+
+            #tweet{
+                border: 1px solid #eee;
+                max-width: 500px;
+                padding: 20px;
+                border-radius: 12px;
+            }
+
+            .header{
+                display: flex;
+                gap: 12px;
+            }
+
+            .avatar{
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;
+            }
+
+            .info{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .name{
+                line-height: 0pt;
+                font-size: 1.1rem;
+                margin-bottom: 5px;
+            }
+
+            .handle{
+                color: #808080;
+                line-height: 0pt;
+                margin-bottom: 5px;
+                font-size: 0.9rem;
+                font-weight: 400;
+            }
+
+            .tweet-text{
+                font-size: 1.15rem;
+            }
+
+            .action-btn{
+                color: #808080;
+                font-size: 1rem;
+                padding: 15px;
+            }
+
+            .action-btn:hover{
+                color: maroon;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="tweet">
+            <div class="header">
+                <img src="https://placehold.co/400" class="avatar" alt="foto profil twitter">
+                <div class="info">
+                    <h2 class="name">Belajar Web Bareng Prisma</h2>
+                    <h3 class="handle">@prismaid</h3>
+                </div>
+            </div>
+            <p>
+                <strong>Hai Dunia!!!</strong><br>
+                Tweet ini dibuat menggunakan <code>HTML</code> &amp; <code>CSS</code> yang akan selalu dijumpai saat menjelajahi internet karena <code>HTML</code> &amp; <code>CSS</code>
+                merupakan fondasi dalam teknologi web, kamu juga bisa membuat ini dengan menyalin dari <em> View page source</em> atau tekan <kbd>Ctrl + U</kbd>, selamat mencoba &#127881;<br>
+            </p>
+
+            <div>
+                <i class="nf nf-fa-comment_o action-btn"></i>
+                <i class="nf nf-fa-retweet action-btn"></i>
+                <i class="nf nf-oct-heart action-btn"></i>
+                <i class="nf nf-oct-bookmark action-btn"></i>
+                <i class="nf nf-oct-share_android action-btn"></i>
+            </div>
+        </div>
+    </body>
+</html>
